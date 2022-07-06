@@ -11,11 +11,6 @@ body {
 
 }
 
-body {
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-
-}
 
 h1 {
     font-size: 50px;
@@ -39,7 +34,8 @@ h2 {
     height: 100%;
     width: 100%;
     padding: 10px;
-    background-image: linear-gradient(rgba(0, 130, 170, 0), rgb(34, 34, 34)), url(images/donation8.jpg);
+    background-image: linear-gradient(rgba(0, 255, 200, 0), rgb(58, 121, 126)), url(images/donation8.jpg);
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     color: white;
 
@@ -54,7 +50,7 @@ h2 {
 }
 
 .btn {
-    background-color: tomato;
+    background-color: rgb(0, 73, 55);
     border: none;
     color: white;
     padding: 15px 22px;
@@ -67,6 +63,10 @@ h2 {
     border-radius: 5px;
 }
 
+.btn-position {
+    margin-top: 20px;
+}
+
 .background-size {
     width: 80%;
     margin-left: 10%;
@@ -75,28 +75,33 @@ h2 {
 .flex-container {
     display: flex;
     flex-wrap: nowrap;
-    margin: auto;
+    margin-top: 20px;
     justify-content: center;
 }
 
 .flex-container>div {
-    width: 140px;
-    height: 110px;
+    width: 130px;
+    height: 100px;
     margin: 20px;
     margin-top: 20px;
-    background-color: rgb(138, 136, 136);
-    font-size: 30px;
+    background-color: rgba(95, 95, 95, 0.822);
+    font-size: 25px;
     font-weight: bold;
     text-align: center;
 
 }
 
+.flex-container>div>p {
+    text-align: center;
+    margin-top: 20%;
+
+}
 
 .flex-container>div:nth-of-type(2) {
-    background-color: rgb(148, 81, 54);
+    background-color: rgb(80, 99, 93);
 
     border: 3px solid;
-    border-color: rgb(255, 0, 0);
+    border-color: rgb(0, 95, 51);
 }
 
 .inline {
@@ -105,14 +110,17 @@ h2 {
     padding: 10px;
 }
 
+.text-aling>p {
+    margin-top: 10px;
+}
 
 input {
     padding-left: 43%;
-    color: black;
+    color: rgb(245, 245, 245);
 }
 
 ::placeholder {
-    color: black;
+    color: rgb(29, 34, 30);
     opacity: 0.5;
 }
 
@@ -136,12 +144,13 @@ input {
 
 .column {
     float: left;
-    width: 33%;
+    width: 500px;
     margin-bottom: 16px;
     padding: 0 4px;
     margin-left: 10px;
     margin-right: 10px;
     height: 400px;
+    justify-content: center;
 }
 
 
@@ -151,12 +160,16 @@ input {
     padding-left: 10px;
 }
 
+.card>h3 {
+    margin-top: 20px;
+}
+
 .container {
     padding: 0 16px;
 }
 
 .background-size-plan {
-    background-color: rgb(114, 105, 105);
+    background-color: rgb(115, 136, 130);
 }
 
 footer {
