@@ -1,7 +1,12 @@
-body {
-    font-family: 'Poppins', sans-serif;
+* {
     margin: 0;
     padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'The Nautigal', cursive;
+
     background-color: gray;
 
 }
@@ -86,6 +91,7 @@ h2 {
 
 }
 
+
 .flex-container>div:nth-of-type(2) {
     background-color: rgb(148, 81, 54);
 
@@ -99,8 +105,19 @@ h2 {
     padding: 10px;
 }
 
+
+input {
+    padding-left: 43%;
+    color: black;
+}
+
+::placeholder {
+    color: black;
+    opacity: 0.5;
+}
+
 .inline input {
-    width: 80%;
+    width: 60%;
     border: none;
     border-bottom: 1px solid rgb(63, 63, 63);
     background-color: gray;
@@ -108,7 +125,57 @@ h2 {
 }
 
 .btn-inline {
-
+    display: flex;
     justify-content: center;
+}
+
+.flex-box {
+    display: flex;
+    justify-content: left;
+}
+
+.column {
+    float: left;
+    width: 33%;
+    margin-bottom: 16px;
+    padding: 0 4px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 400px;
+}
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(12, 8, 8, 0.2);
+    height: 300px;
+    padding-left: 10px;
+}
+
+.container {
+    padding: 0 16px;
+}
+
+.background-size-plan {
+    background-color: rgb(114, 105, 105);
+}
+
+footer {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+
+}
+
+.footer {
+    text-align: center;
+    color: brown;
+    font-family: 'The Nautigal', cursive;
+}
+
+.p {
+    color: rgb(6, 245, 245);
+    text-align: center;
+
+
 
 }
