@@ -1,3 +1,114 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.oreng-color {
+    color: orange;
+}
+
+.flexible-containar {
+    display: inline-flex;
+    margin-bottom: 150px;
+}
+
+.half-with {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    background-image: linear-gradient(rgba(0, 130, 170, 0), rgb(34, 34, 34)), url(images/donation8.jpg);
+    background-repeat: no-repeat;
+    color: white;
+
+}
+
+.text-aling {
+    text-align: center;
+    background-position: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 50px;
+}
+
+.btn {
+    background-color: tomato;
+    border: none;
+    color: white;
+    padding: 15px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.background-size {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: auto;
+    justify-content: center;
+}
+
+.flex-container>div {
+    width: 140px;
+    height: 110px;
+    margin: 20px;
+    margin-top: 20px;
+    background-color: rgb(138, 136, 136);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.flex-container>div:nth-of-type(2) {
+    background-color: rgb(148, 81, 54);
+
+    border: 3px solid;
+    border-color: rgb(255, 0, 0);
+}
+
+.inline {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.inline input {
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid rgb(63, 63, 63);
+    background-color: gray;
+    height: 30px;
+}
+
+.btn-inline {
+
+    justify-content: center;
+
 }
