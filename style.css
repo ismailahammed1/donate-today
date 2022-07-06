@@ -158,10 +158,29 @@ input {
     box-shadow: 0 4px 8px 0 rgba(12, 8, 8, 0.2);
     height: 300px;
     padding-left: 10px;
+    border-radius: 3px;
+}
+
+.card>img {
+    margin-top: 5%;
 }
 
 .card>h3 {
-    margin-top: 20px;
+    margin-top: 5%;
+}
+
+.card>p {
+    margin-top: 5%;
+    margin-left: 2%;
+}
+
+
+.card3 {
+    background-color: rgb(122, 81, 66);
+}
+
+.card1 {
+    background-color: rgb(109, 136, 106);
 }
 
 .container {
@@ -171,6 +190,48 @@ input {
 .background-size-plan {
     background-color: rgb(115, 136, 130);
 }
+
+.back {
+    display: flex;
+    margin: 5%;
+    margin-top: 2%;
+}
+
+.back>img {
+    width: 45%;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+.backbon1>p {
+    margin-top: 5%;
+}
+
+.backbon1>.btn {
+    margin-top: 5%;
+}
+
+.backbon1 {
+    margin-left: 5%;
+}
+
+.backbon2>p {
+    margin-top: 5%;
+}
+
+.backbon2>.btn {
+    margin-top: 5%;
+}
+
+.backbon2 {
+    margin-left: 5%;
+}
+
+.bns {
+    padding-top: 20px;
+}
+
+
 
 footer {
     background-color: black;
